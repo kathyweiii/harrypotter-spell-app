@@ -38,6 +38,27 @@ We scrawled the spell data from https://harrypotter.fandom.com/wiki/List_of_spel
 The sound file was downloaded from https://www.youtube.com/
 
 ## Code organization
+![code organization](https://github.com/kathyweiii/harrypotter-spell-app/blob/main/codeOrganization.drawio.png?raw=true)
+I had edit these above files. \
+
+### Public folder
+In the pulic folder, `style.css` controls every style besides the Navbar, whose style is controled by `Navbar.css`. \
+There are also some images in this folder, such as background image.
+
+### Containers folder
+There are three files for each page, spell list, search engine and nopage.
+The `nopage.jsx` is created in case users enter unexist url.
+
+### Components folder
+#### Spell List Page
+The `Content.jsx` and `Card.jsx` are the components of `SpellList.jsx`.\
+The `Content.jsx` divides all the spell data into different card.\
+The `Card.jsx` controls the design of card.
+
+#### Navbar 
+The `SidebarData.jsx` stores the items' data, such name, icon and url.\
+The `Navbar.jsx` controls the design of the sidebar.\
+The `Navbar.css` controls the style of the sidebar.
 
 
 
